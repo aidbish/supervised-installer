@@ -14,7 +14,6 @@ warn "via a Docker container."
 warn ""
 echo -n 'Please type "not supported" to continue this installation'
 read response
-grep -i "$response"
 if [ "$response" != "not supported" ]; then
    echo "OK, bye!"
    exit 1
